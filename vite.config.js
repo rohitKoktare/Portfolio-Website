@@ -8,4 +8,7 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [],
+  build: {
+    chunkSizeWarningLimit: 3000,  // Adjust the limit to your needs
+  }
 })
