@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import { Tilt } from 'react-tilt'
+import  Tilt  from "react-parallax-tilt"
 import { styles } from '../style'
 import {SectionWrapper} from '../hoc'
 import {projects} from '../constants'
